@@ -1,0 +1,35 @@
+/*survey.css*/
+body {
+    background-color: aliceblue;
+}
+
+p {
+    font-family: "휴먼편지체", Serif;
+    font-size: 1em;
+    text-indent: 1em;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+}
+
+section {
+    background-color: LightPink;
+}
+
+span {
+    font-family: "Times New Roman"; color: blue;
+    text-shadow: 2px 2px 2px skyblue;
+    font-weight: bold;
+    /*제시된 웹 사진의 글씨체가 볼드체인것 같아 볼드체로 바꾸었습니다.*/
+}
+footer {
+    background-color: orange;
+    border-radius: 20px;
+}
