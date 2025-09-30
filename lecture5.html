@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>display 프로퍼티</title>
-        <style>
+        <!-- <style>
             div {
                 border: 2px solid yellowgreen;
                 color: blue;
@@ -13,10 +13,34 @@
                 border: 3px dotted red;
                 background: yellow;
             }
+        </style> -->
+
+        <style>
+            div{
+                display: inline-block;
+                height: 50px;
+                width: 50px;
+                border: 1px solid lightgray;
+                text-align: center;
+                color: white;
+                background: red;
+            }
+            #down:hover{
+                position:relative;
+                left: 20px;
+                top: 20px;
+                background: green;
+            }
+            #up:hover{
+                position: relative;
+                right: 20px;
+                bottom: 20px;
+                background: green;
+            }
         </style>
     </head>
     <body>
-        <h3>인라인, 인라인 블록, 블록</h3>
+        <!-- <h3>인라인, 인라인 블록, 블록</h3>
         <hr>
         나는 <div style="display: none;">
             div(none)
@@ -37,6 +61,16 @@
             div
             <span style="display: block;">div(block)</span>입니다.
         </div>
-        <br><br>
+        <br><br> -->
+
+        <h3>상대배치, relative</h3>
+        h와 k글자에 마우스를 올려 보세요
+        <hr>
+        <div>T</div>
+        <div id="down">h</div>
+        <div>a</div>
+        <div>n</div>
+        <div id="up">k</div>
+        <div>s</div>
     </body>
 </html>
