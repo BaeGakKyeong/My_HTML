@@ -1,5 +1,8 @@
 @import url(4.css);
 
+header{
+	background-color: yellow;
+}
 form {
 	background : pink;
 	border-style : none;
@@ -9,6 +12,8 @@ form {
 }
 .formspan {
 	font-family : gothic;
-	font-weight : bold;
-	color : blue;
+}
+footer{
+	background-color: purple;
+	padding: 10px;
 }
