@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>iframe을 가지는 웹 페이지</title>
+        <title>srcdoc 속성 활용</title>
     </head>
     <body>
         <!-- <h3>아래 텍스트를 클릭해 다운받기</h3>
@@ -13,9 +13,14 @@
             <li><a href="earth.jpg" download>지구 이미지 다운로드</a></li>
         </ul> -->
 
-        <h3>2개의 &lt;iframe&gt;을 가집니다.</h3>
+        <!-- <h3>2개의 &lt;iframe&gt;을 가집니다.</h3>
         <hr>
         <iframe src="iframe1.html" width="200" height="150"></iframe>
-        <iframe src="iframe2.html" width="200" height="100"></iframe>
+        <iframe src="iframe2.html" width="200" height="100"></iframe> -->
+
+        <h3>srcdoc에 html문서 작성</h3>
+        <hr>
+        <iframe src="iframe1.html" width="200" height="80"
+        srcdoc="<html><head></head><body>hello</body></html>"></iframe>
     </body>
 </html>
